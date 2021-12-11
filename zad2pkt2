@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Zadanie2_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            ulong  silnia = 1;
+            ulong liczba1 = 9;
+
+
+            for (ulong i = 1; i <= liczba1; i++)
+            {
+
+                silnia *= i;
+
+            }
+
+            Console.WriteLine(silnia);
+
+            ulong silnia2 = 1;
+            ulong liczba2 = 20;
+
+            for (ulong i = 1; i <= liczba2; i++)
+            {
+
+                silnia2 *= i;
+
+            }
+
+            Console.WriteLine(silnia2);
+
+            ulong silnia3 = 1;
+            ulong liczba3 = 283;
+
+            for (ulong i = 1; i <= liczba3; i++)
+            {
+
+                silnia3 *= i;
+
+            }
+
+            Console.WriteLine(silnia3);
+
+
+
+
+            Console.ReadKey();
+        }
+    }
+}
