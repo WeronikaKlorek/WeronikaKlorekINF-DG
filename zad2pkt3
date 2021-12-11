@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zad3pkt3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Kalkulator umożliwia mnożenie dwóch liczb");
+            Console.WriteLine("Podaj pierwszą liczbę: ");
+            string liczba1 = Console.ReadLine();
+            float a = float.Parse(liczba1);
+
+            Console.WriteLine("Podaj drugą liczbę: ");
+            string liczba2 = Console.ReadLine();
+
+            float b = float.Parse(liczba2);
+            float c = a * b;
+
+            Console.WriteLine("Iloczyn liczb podanych przez Ciebie to: " + c);
+            Console.ReadLine();
+        }
+    }
+}
